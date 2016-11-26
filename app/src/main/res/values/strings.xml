@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjectCard</string>
+    <string name="start">Start</string>
+    <string name="mode">"Set Game Mode"</string>
+    <string name="mode_prompt">Choose a Mode</string>
+    <string-array name="mode_entries">
+        <item>Choose a Mode</item>
+        <item>Positive Marking Game</item>
+        <item>Negative Marking Game</item>
+    </string-array>
+</resources>
