@@ -5,24 +5,18 @@
     android:id="@+id/activity_welcome"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hr.projectcard.WelcomeActivity">
+    tools:context="com.example.hr.projectcard.WelcomeActivity"
+    android:background="@drawable/cardfirstpage1">
 
-    <ImageView
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/imageView2"
-        android:background="@drawable/cardfirstpage1"
-        android:layout_width="match_parent" />
 
     <Button
         android:text="@string/start"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
         android:id="@+id/button"
         android:background="@drawable/ovalbutton"
+        android:layout_marginBottom="121dp"
         android:visibility="visible"
-        android:layout_marginBottom="136dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

@@ -20,9 +20,13 @@
         </activity>
         <activity
             android:name=".SelectGameActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".GameModeActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".GameModeActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".JudgmentActivity"></activity>
     </application>
 
 </manifest>
